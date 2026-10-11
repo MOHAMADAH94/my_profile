@@ -1,0 +1,54 @@
+.footer {
+  border-top: 1px solid var(--border);
+  background: var(--background-elevated);
+  padding: 2.5rem 0 2rem;
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.brand {
+  display: grid;
+  gap: 0.45rem;
+  max-width: 28rem;
+}
+
+.name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.title {
+  color: var(--text-muted);
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem 1.25rem;
+}
+
+.links a {
+  color: var(--text-muted);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.links a:hover {
+  color: var(--primary);
+}
+
+.copy {
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}

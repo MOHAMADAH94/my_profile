@@ -1,0 +1,40 @@
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 760px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1080px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  padding: 1.35rem 1.4rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.title {
+  font-size: 1.12rem;
+  margin-bottom: 0.4rem;
+}
+
+.description {
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+  font-size: 0.98rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}

@@ -1,0 +1,180 @@
+.page {
+  padding-block: clamp(2.5rem, 6vw, 4rem) var(--section-space);
+}
+
+.back {
+  display: inline-flex;
+  margin-bottom: 1.5rem;
+  color: var(--text-muted);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.back:hover {
+  color: var(--primary);
+}
+
+.hero {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (min-width: 960px) {
+  .hero {
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: start;
+  }
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 0.75rem;
+}
+
+.tagline {
+  color: var(--text-muted);
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  margin-bottom: 1.25rem;
+}
+
+.role {
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+}
+
+.cover {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface-muted);
+}
+
+.cover img {
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  object-fit: cover;
+}
+
+.placeholder {
+  display: grid;
+  place-items: center;
+  min-height: 240px;
+  color: var(--primary);
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.grid {
+  display: grid;
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (min-width: 860px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.panel {
+  padding: 1.25rem 1.35rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.panel h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.65rem;
+}
+
+.panel p {
+  color: var(--text-muted);
+}
+
+.split {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (min-width: 900px) {
+  .split {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.list {
+  margin: 0;
+  padding-inline-start: 1.1rem;
+  display: grid;
+  gap: 0.45rem;
+  color: var(--text-muted);
+}
+
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.challenges {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.challenge {
+  padding: 1.2rem 1.3rem;
+  border-radius: var(--radius);
+  background: var(--surface-muted);
+  border: 1px solid var(--border);
+}
+
+.challenge h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.4rem;
+}
+
+.challenge p {
+  color: var(--text-muted);
+}
+
+.relatedTitle {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.relatedGrid {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 760px) {
+  .relatedGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.galleryBlock {
+  margin-bottom: 2.5rem;
+}
+
+.subheading {
+  margin-top: 1.25rem;
+  font-size: 1.15rem;
+}

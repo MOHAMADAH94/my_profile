@@ -1,0 +1,18 @@
+.page {
+  min-height: calc(100vh - var(--nav-height) - 12rem);
+  display: grid;
+  place-items: center;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 0.75rem;
+}
+
+.text {
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+  max-width: 28rem;
+}
