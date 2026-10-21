@@ -1,6 +1,6 @@
 # Mohamad Ahmad Hamdan — Portfolio
 
-Premium personal portfolio for Mohamad Ahmad Hamdan (محمد أحمد حمدان).
+Premium personal portfolio for Mohamad Ahmad Hamdan (محمد أحمد حمدان) — SaaS, assessment platforms, business systems, and mobile products.
 
 ## Stack
 

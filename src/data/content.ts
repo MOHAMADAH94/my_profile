@@ -18,6 +18,14 @@ export const whatIBuild: ContentCard[] = [
     },
   },
   {
+    id: 'assessment',
+    title: { ar: 'منصات التقييم والاختبارات', en: 'Assessment & Exam Platforms' },
+    description: {
+      ar: 'منظومات تقييم متعددة الأدوار واللجان مع بنوك أسئلة وتصحيح آلي ومراقبة حية وتقارير قرار.',
+      en: 'Multi-role, multi-committee assessment systems with question banks, auto-grading, live monitoring, and decision reports.',
+    },
+  },
+  {
     id: 'web',
     title: { ar: 'تطبيقات الويب', en: 'Web Applications' },
     description: {
@@ -29,16 +37,16 @@ export const whatIBuild: ContentCard[] = [
     id: 'mobile',
     title: { ar: 'تطبيقات الموبايل', en: 'Mobile Applications' },
     description: {
-      ar: 'تطبيقات Flutter وAndroid للمالية والتعليم والنوادي وأسعار الصرف والتجارة الرقمية.',
-      en: 'Flutter and Android apps for finance, education, clubs, exchange rates, and digital commerce.',
+      ar: 'تطبيقات Flutter وAndroid للمالية والتعليم والقراءة والنوادي وأسعار الصرف والتجارة الرقمية.',
+      en: 'Flutter and Android apps for finance, education, reading, clubs, exchange rates, and digital commerce.',
     },
   },
   {
     id: 'apis',
     title: { ar: 'واجهات REST والخلفيات', en: 'REST APIs & Backends' },
     description: {
-      ar: 'خلفيات Django وASP.NET مع المصادقة والصلاحيات ونماذج نطاق منظمة.',
-      en: 'Django and ASP.NET backends with authentication, permissions, and structured domain models.',
+      ar: 'خلفيات Django وExpress وASP.NET مع المصادقة والصلاحيات ونماذج نطاق منظمة.',
+      en: 'Django, Express, and ASP.NET backends with authentication, permissions, and structured domain models.',
     },
   },
   {

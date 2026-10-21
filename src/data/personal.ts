@@ -41,8 +41,8 @@ export const personalInfo: PersonalInfo = {
       en: 'What I enjoy most is turning a messy operational problem into a clear product: roles, workflows, data models, APIs, and interfaces that people use every day.',
     },
     {
-      ar: 'SaaS تناسب طريقة تفكيري بشكل طبيعي. منصات مثل Mobi Shop وSmart School وMedicaloop علّمتني التصميم لعدة أعمال وصلاحيات واشتراكات وقابلية الصيانة على المدى الطويل — وليس صفحات لمرة واحدة فقط.',
-      en: 'SaaS is a natural fit for how I think. Platforms like Mobi Shop, Smart School, and Medicaloop taught me to design for multiple businesses, permissions, subscriptions, and long-term maintainability — not just one-off pages.',
+      ar: 'SaaS والأنظمة التشغيلية تناسب طريقة تفكيري بشكل طبيعي. منصات مثل Mobi Shop وSmart School وMedicaloop ومنصة الاختبارات علّمتني التصميم لعدة أعمال وصلاحيات واشتراكات ومسارات تقييم وقابلية الصيانة على المدى الطويل — وليس صفحات لمرة واحدة فقط.',
+      en: 'SaaS and operational systems are a natural fit for how I think. Platforms like Mobi Shop, Smart School, Medicaloop, and the Exam Platform taught me to design for multiple businesses, permissions, subscriptions, assessment workflows, and long-term maintainability — not just one-off pages.',
     },
   ],
   languages: [
@@ -51,14 +51,14 @@ export const personalInfo: PersonalInfo = {
     { name: { ar: 'التركية', en: 'Turkish' }, level: { ar: 'طلاقة', en: 'Fluent' } },
   ],
   cvUrl: '/cv/Mohamad-Hamdan-2026.pdf',
-  githubUrl: 'https://github.com/alasermohamad94',
+  githubUrl: 'https://github.com/MOHAMADAH94',
 }
 
 export const socialLinks: SocialLink[] = [
   {
     id: 'github',
     label: 'GitHub',
-    href: 'https://github.com/alasermohamad94',
+    href: 'https://github.com/MOHAMADAH94',
     external: true,
   },
   {

@@ -60,6 +60,44 @@ export const experience: ExperienceItem[] = [
     ],
   },
   {
+    id: 'exam-platform',
+    title: {
+      ar: 'منصة الاختبارات — منظومة تقييم متعددة اللجان',
+      en: 'Exam Platform — Multi-committee Assessment System',
+    },
+    organization: { ar: 'مستقل / عمل منتج', en: 'Independent / Product Work' },
+    location: { ar: 'سوريا', en: 'Syria' },
+    period: '2025 — 2026',
+    type: 'project',
+    description: [
+      {
+        ar: 'بناء منصة ويب عربية كاملة لاختبارات التوظيف والتأهيل: بنوك أسئلة، لجان موزونة، دخول QR، مراقبة حية، وتصحيح آلي.',
+        en: 'Built a full Arabic web platform for hiring and qualification exams: question banks, weighted committees, QR entry, live monitoring, and auto-grading.',
+      },
+      {
+        ar: 'تنفيذ الخلفية بـ Express وSQLite والواجهة بـ React مع تصدير PDF/Excel وحماية الأرشيف.',
+        en: 'Implemented Express + SQLite backend and React frontend with PDF/Excel export and archive protection.',
+      },
+    ],
+  },
+  {
+    id: 'iqraa',
+    title: {
+      ar: 'تطبيق إقرأ — مكتبة PDF شخصية',
+      en: 'Iqraa App — Personal PDF Library',
+    },
+    organization: { ar: 'مستقل / عمل منتج', en: 'Independent / Product Work' },
+    location: { ar: 'سوريا', en: 'Syria' },
+    period: '2025 — 2026',
+    type: 'project',
+    description: [
+      {
+        ar: 'تطوير تطبيق Flutter لقراءة مكتبة كتب PDF مضمّنة مع حفظ التقدم وسيرة الكاتب — دون الحاجة لخادم.',
+        en: 'Developed a Flutter app for a bundled PDF book library with reading progress and author biography — no server required.',
+      },
+    ],
+  },
+  {
     id: 'stolen-phone',
     title: {
       ar: 'نظام تتبع الهواتف المسروقة',

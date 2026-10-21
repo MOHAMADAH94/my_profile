@@ -201,7 +201,7 @@ export const projects: Project[] = [
     ],
     links: {
       liveUrl: 'https://mobishop.online',
-      githubUrl: 'https://github.com/alasermohamad94/mobishop',
+      githubUrl: 'https://github.com/MOHAMADAH94/mobishop',
       demoUrl: 'https://mobishop.online/marketplace',
     },
   },
@@ -297,8 +297,95 @@ export const projects: Project[] = [
       },
     ],
     links: {
-      githubUrl: 'https://github.com/alasermohamad94/Basera',
+      githubUrl: 'https://github.com/MOHAMADAH94/Basera',
       apkUrl: '/downloads/basera-release.apk',
+    },
+  },
+  {
+    name: 'Iqraa',
+    slug: 'iqraa',
+    tagline: {
+      ar: 'مكتبة PDF شخصية لكتب أحمد علي حمدان رحمه الله.',
+      en: 'A personal PDF library of Ahmad Ali Hamdan’s books.',
+    },
+    description: {
+      ar: 'تطبيق Flutter باسم «إقرأ» لقراءة مجموعة كتب PDF مضمّنة — مع أغلفة وعارض Syncfusion وحفظ آخر صفحة لكل كتاب وتبويب سيرة الكاتب.',
+      en: 'A Flutter app named “Iqraa” for reading a bundled PDF library — with covers, Syncfusion viewer, per-book reading progress, and an author biography tab.',
+    },
+    category: 'mobile',
+    status: 'completed',
+    year: '2025–2026',
+    featured: true,
+    platform: 'Android',
+    role: {
+      ar: 'تطوير تطبيق Flutter وتجربة القراءة وحفظ التقدم دون اتصال.',
+      en: 'Flutter development — reader UX and offline progress persistence.',
+    },
+    problem: {
+      ar: 'نشر مكتبة كتب PDF محلية على الجوال مع استئناف القراءة بسهولة ودون خادم.',
+      en: 'Publishing a local PDF book library on mobile with easy resume — and no backend server.',
+    },
+    solution: {
+      ar: 'بناء قارئ أصلي بثلاثة تبويبات (كتب / كاتب / صفحات محفوظة) وPDFs مضمّنة وتقدم محفوظ محلياً.',
+      en: 'Built a native reader with three tabs (Books / Author / Saved pages), bundled PDFs, and locally persisted progress.',
+    },
+    result: {
+      ar: 'قارئ مستقل يعمل دون اتصال مع مكتبة كتب وأغلفة وسيرة الكاتب.',
+      en: 'A standalone offline reader with a book library, covers, and author biography.',
+    },
+    features: [
+      { ar: 'مكتبة كتب PDF مضمّنة دون اتصال', en: 'Bundled offline PDF library' },
+      { ar: 'أغلفة مصوّرة لكل كتاب', en: 'Per-book cover images' },
+      { ar: 'عارض PDF مع تنقّل الصفحات', en: 'PDF viewer with page navigation' },
+      { ar: 'حفظ آخر صفحة لكل كتاب', en: 'Save last page per book' },
+      { ar: 'تبويب الصفحات المحفوظة', en: 'Saved-pages tab' },
+      { ar: 'استئناف القراءة من الصفحة المحفوظة', en: 'Resume from saved page' },
+      { ar: 'تبويب سيرة الكاتب', en: 'Author biography tab' },
+      { ar: 'واجهة عربية داكنة Material 3', en: 'Dark Material 3 Arabic UI' },
+      { ar: 'شريط تنقّل: كتب / كاتب / محفوظات', en: 'Bottom nav: Books / Author / Saved' },
+    ],
+    technologies: [
+      'Flutter',
+      'Dart',
+      'Syncfusion PDF Viewer',
+      'shared_preferences',
+      'Material 3',
+    ],
+    technicalHighlights: [
+      {
+        ar: 'كتالوج أصول مضمّنة دون خلفية',
+        en: 'Asset-based catalog with no backend',
+      },
+      {
+        ar: 'حفظ التقدم عبر SharedPreferences',
+        en: 'Progress persistence via SharedPreferences',
+      },
+      {
+        ar: 'فصل واضح بين النماذج والخدمات والشاشات',
+        en: 'Clear separation of models, services, and screens',
+      },
+    ],
+    coverImage: '/images/projects/iqraa/cover.png',
+    screenshots: [
+      {
+        src: '/images/projects/iqraa/cover.png',
+        alt: { ar: 'غلاف من مكتبة إقرأ', en: 'Cover from the Iqraa library' },
+        caption: {
+          ar: 'تجربة قراءة كتب PDF عربية',
+          en: 'Arabic PDF reading experience',
+        },
+      },
+      {
+        src: '/images/projects/iqraa/author.png',
+        alt: { ar: 'صورة الكاتب في تطبيق إقرأ', en: 'Author portrait in Iqraa' },
+        caption: {
+          ar: 'تبويب سيرة الكاتب أحمد علي حمدان',
+          en: 'Author biography tab for Ahmad Ali Hamdan',
+        },
+      },
+    ],
+    links: {
+      githubUrl: 'https://github.com/MOHAMADAH94/iqraa',
     },
   },
   {
@@ -365,7 +452,7 @@ export const projects: Project[] = [
       },
     ],
     links: {
-      githubUrl: 'https://github.com/alasermohamad94/smart_school',
+      githubUrl: 'https://github.com/MOHAMADAH94/smart_school',
     },
   },
   {
@@ -434,7 +521,169 @@ export const projects: Project[] = [
       },
     ],
     links: {
-      githubUrl: 'https://github.com/alasermohamad94/medicaloop',
+      githubUrl: 'https://github.com/MOHAMADAH94/medicaloop',
+    },
+  },
+  {
+    name: 'Exam Platform',
+    slug: 'exam-platform',
+    tagline: {
+      ar: 'منظومة تقييم عربية متعددة اللجان للاختبارات المهنية والتأهيلية.',
+      en: 'Arabic multi-committee assessment system for professional qualification exams.',
+    },
+    description: {
+      ar: 'منصة ويب RTL لإدارة اختبارات التوظيف والتأهيل عبر أنواع متعددة (عام، كتابي، شفهي، أهلية قيادة، شخصية، مراجعة أمنية) — مع لجان موزونة ودخول عبر QR ومراقبة حية وتصحيح آلي وتصدير PDF/Excel.',
+      en: 'An RTL web platform for hiring and qualification exams across multiple types (general, written, oral, leadership fitness, personality, security review) — with weighted committees, QR entry, live monitoring, auto-grading, and PDF/Excel export.',
+    },
+    category: 'saas',
+    status: 'completed',
+    year: '2025–2026',
+    featured: true,
+    role: {
+      ar: 'ملكية كاملة للمنتج — واجهة React وخادم Express وقاعدة SQLite والنشر.',
+      en: 'Full product ownership — React UI, Express API, SQLite, and deployment.',
+    },
+    problem: {
+      ar: 'تقييم مرشحين عبر أنواع اختبار ولجان متعددة يحتاج توحيداً للدرجات والأرشفة والصلاحيات دون جداول متفرقة.',
+      en: 'Evaluating candidates across many exam types and committees needs unified scoring, archival, and permissions — not scattered spreadsheets.',
+    },
+    solution: {
+      ar: 'بناء منصة مركزية ببنوك أسئلة ومسارات حسب التصنيف الوظيفي ولجان بأوزان ودخول QR مع مراقبة حية ومحرك قرار مركّب.',
+      en: 'Built a central platform with question banks, job-classification flows, weighted committees, QR entry with live monitoring, and a composite decision engine.',
+    },
+    result: {
+      ar: 'مسار تقييم موحد من استيراد المتقدمين حتى اعتماد النتيجة وتقرير القيادة، مع أرشفة محمية وتصدير رسمي.',
+      en: 'A unified assessment path from roster import to adopted results and leadership briefings, with protected archives and official exports.',
+    },
+    features: [
+      {
+        ar: 'أنواع اختبار: عام/كتابي، شفهي، أهلية قيادة، شخصية، مراجعة أمنية',
+        en: 'Exam types: general/written, oral, leadership fitness, personality, security review',
+      },
+      {
+        ar: 'حسابات وصول حسب الاختصاص',
+        en: 'Specialty-scoped operator accounts',
+      },
+      {
+        ar: 'لجان تقييم بأوزان مجموعها 100% واعتماد نتيجة مركّبة',
+        en: 'Weighted committees (weights sum to 100%) with adopted composite scores',
+      },
+      {
+        ar: 'دخول الممتحن عبر بطاقة/رمز QR',
+        en: 'Examinee entry via QR card/token',
+      },
+      {
+        ar: 'مراقبة حية عبر WebSocket',
+        en: 'Live WebSocket monitoring',
+      },
+      {
+        ar: 'تصحيح آلي للأسئلة الموضوعية',
+        en: 'Auto-grading for objective questions',
+      },
+      {
+        ar: 'بنوك أسئلة كبيرة حسب نوع الاختبار',
+        en: 'Large question banks by exam type',
+      },
+      {
+        ar: 'استيراد متقدمين وتصدير Excel',
+        en: 'Examinee import and Excel export',
+      },
+      {
+        ar: 'تصدير نماذج PDF وسلم إجابات',
+        en: 'PDF exam forms and answer keys',
+      },
+      {
+        ar: 'محرك قرار: مؤهل / مشروط / غير مؤهل',
+        en: 'Decision engine: qualified / conditional / not qualified',
+      },
+      {
+        ar: 'حماية أرشيف ونسخ احتياطي',
+        en: 'Archive protection and backups',
+      },
+      {
+        ar: 'واجهة عربية RTL',
+        en: 'Arabic RTL interface',
+      },
+    ],
+    technologies: [
+      'React',
+      'TypeScript',
+      'Vite',
+      'Tailwind CSS',
+      'Express',
+      'SQLite',
+      'JWT',
+      'WebSocket',
+      'ExcelJS',
+      'jsPDF',
+    ],
+    technicalHighlights: [
+      {
+        ar: 'بنية SPA + Express + SQLite قابلة للنشر كوحدة واحدة',
+        en: 'SPA + Express + SQLite architecture deployable as one unit',
+      },
+      {
+        ar: 'وضعان للتنفيذ: جلسات QR تحت المراقبة مقابل تسجيل درجات اللجان',
+        en: 'Dual modes: QR-monitored sessions vs committee interview scoring',
+      },
+      {
+        ar: 'وحدات مشتركة لقواعد القرار ومصفوفة التقييم',
+        en: 'Shared modules for decision rules and evaluation matrix',
+      },
+      {
+        ar: 'اختبارات آلية للجان والتقييمات وحماية الأرشيف',
+        en: 'Automated tests for committees, evaluations, and archive protection',
+      },
+    ],
+    challenges: [
+      {
+        challenge: {
+          ar: 'دمج درجات لجان متعددة بأوزان دون فقدان الشفافية.',
+          en: 'Combining multi-member committee scores with weights without losing transparency.',
+        },
+        approach: {
+          ar: 'حفظ الأوزان مع كل اعتماد وتجميد النتائج المعتمدة دون أثر رجعي.',
+          en: 'Persisted weights with each adoption and froze adopted results with no retroactive changes.',
+        },
+      },
+      {
+        challenge: {
+          ar: 'موازنة التصحيح الآلي مع التقييم اليدوي حسب نوع الاختبار.',
+          en: 'Balancing auto-grading with manual scoring by exam type.',
+        },
+        approach: {
+          ar: 'فصل مسارات الأسئلة الموضوعية عن الشفهي/المقالي مع صلاحيات حسب الدور.',
+          en: 'Separated objective flows from oral/open scoring with role-scoped permissions.',
+        },
+      },
+    ],
+    coverImage: '/images/projects/exam-platform/cover.png',
+    screenshots: [
+      {
+        src: '/images/projects/exam-platform/cover.png',
+        alt: {
+          ar: 'شعار وهوية منصة الاختبارات',
+          en: 'Exam Platform branding',
+        },
+        caption: {
+          ar: 'هوية منصة التقييم العربية',
+          en: 'Arabic assessment platform identity',
+        },
+      },
+      {
+        src: '/images/projects/exam-platform/hero.png',
+        alt: {
+          ar: 'واجهة منصة الاختبارات',
+          en: 'Exam Platform interface visual',
+        },
+        caption: {
+          ar: 'واجهة RTL للاختبارات واللجان والمراقبة',
+          en: 'RTL UI for exams, committees, and monitoring',
+        },
+      },
+    ],
+    links: {
+      githubUrl: 'https://github.com/MOHAMADAH94/sytestportal',
     },
   },
   {
@@ -498,7 +747,7 @@ export const projects: Project[] = [
     ],
     links: {
       liveUrl: 'https://www.azazhospital.online',
-      githubUrl: 'https://github.com/alasermohamad94/clinic-management',
+      githubUrl: 'https://github.com/MOHAMADAH94/clinic-management',
     },
   },
   {
@@ -551,7 +800,7 @@ export const projects: Project[] = [
     ],
     links: {
       liveUrl: 'https://crystal4card.com',
-      githubUrl: 'https://github.com/alasermohamad94/crystal_store',
+      githubUrl: 'https://github.com/MOHAMADAH94/crystal_store',
       apkUrl: '/downloads/crystal-store-release.apk',
     },
   },
@@ -593,7 +842,7 @@ export const projects: Project[] = [
       },
     ],
     links: {
-      githubUrl: 'https://github.com/alasermohamad94/alwaleed_store',
+      githubUrl: 'https://github.com/MOHAMADAH94/alwaleed_store',
     },
   },
   {
@@ -682,7 +931,7 @@ export const projects: Project[] = [
       },
     ],
     links: {
-      githubUrl: 'https://github.com/alasermohamad94/currency_app',
+      githubUrl: 'https://github.com/MOHAMADAH94/alhassan_exchange',
       liveUrl: 'http://alhassanexchange.com',
     },
   },
@@ -734,7 +983,7 @@ export const projects: Project[] = [
       },
     ],
     links: {
-      githubUrl: 'https://github.com/alasermohamad94/Masarifi',
+      githubUrl: 'https://github.com/MOHAMADAH94/Masarifi',
       apkUrl: '/downloads/masarifi-release.apk',
     },
   },
@@ -789,6 +1038,7 @@ export const projects: Project[] = [
       },
     ],
     links: {
+      githubUrl: 'https://github.com/MOHAMADAH94/taikwando',
       apkUrl: '/downloads/taekwondo-club.apk',
     },
   },
@@ -839,50 +1089,60 @@ export const projects: Project[] = [
     links: {},
   },
   {
-    name: 'Kids Quiz Learning Game',
-    slug: 'kids-quiz-game',
+    name: 'Math Game',
+    slug: 'math-game',
     tagline: {
-      ar: 'لعبة اختبارات تعليمية تحول الإجابات الخاطئة إلى شروحات.',
-      en: 'Educational quiz game that turns wrong answers into explanations.',
+      ar: 'اختبار حساب ذهني للأطفال مع مؤقت وتقييم.',
+      en: 'A timed kids’ mental-math quiz with grading.',
     },
     description: {
-      ar: 'لعبة تعليمية للأطفال تقدّم المعلومات بطريقة جذابة، وتشرح الإجابات الصحيحة عندما يختار الطفل خطأً، وتستخدم نظام نقاط لتحفيز التعلم.',
-      en: 'A children’s educational game that delivers information in an engaging way, explains correct answers when a child chooses incorrectly, and uses a points system to motivate learning.',
+      ar: 'تطبيق Flutter تعليمي للأطفال: اختيار عملية (جمع/طرح/ضرب/قسمة/الكل)، 50 سؤالاً بثلاث خيارات، وقت يتناقص تدريجياً، ونتيجة بتقدير من A إلى F.',
+      en: 'A Flutter educational app for kids: pick an operation (add/subtract/multiply/divide/all), 50 multiple-choice questions, a shrinking timer, and a letter grade from A to F.',
     },
     category: 'mobile',
     status: 'completed',
-    year: '2024',
+    year: '2025–2026',
     featured: false,
+    platform: 'Android',
     role: {
-      ar: 'تصميم تجربة اللعبة التعليمية.',
-      en: 'Designed the educational game experience.',
+      ar: 'تصميم وتطوير لعبة الرياضيات التعليمية.',
+      en: 'Designed and developed the educational math game.',
     },
     features: [
       {
-        ar: 'تدفق اختبارات تعليمية جذابة',
-        en: 'Engaging educational quiz flow',
+        ar: 'عمليات: جمع وطرح وضرب وقسمة ومختلط',
+        en: 'Operations: add, subtract, multiply, divide, and mixed',
       },
+      { ar: '50 سؤالاً بثلاث خيارات', en: '50 questions with three choices' },
       {
-        ar: 'شروحات للإجابات غير الصحيحة',
-        en: 'Explanations for incorrect answers',
+        ar: 'مؤقت يتناقص كل خمس أسئلة',
+        en: 'Timer that shrinks every five questions',
       },
-      {
-        ar: 'نظام نقاط للتحفيز',
-        en: 'Points system for motivation',
-      },
+      { ar: 'إنهاء الجولة عند انتهاء الوقت', en: 'Round ends on timeout' },
+      { ar: 'تقدير نهائي من A إلى F', en: 'Final letter grade A–F' },
+      { ar: 'واجهة عربية وشاشة حول', en: 'Arabic UI and About screen' },
     ],
-    technologies: ['Mobile / Game UI'],
+    technologies: ['Flutter', 'Dart', 'Material'],
     coverImage: '/images/projects/kids-quiz/cover.png',
     screenshots: [
       {
         src: '/images/projects/kids-quiz/cover.png',
         alt: {
-          ar: 'واجهة لعبة اختبارات الأطفال',
-          en: 'Kids quiz learning game interface',
+          ar: 'واجهة لعبة الرياضيات للأطفال',
+          en: 'Kids math game interface',
+        },
+      },
+      {
+        src: '/images/projects/kids-quiz/icon.png',
+        alt: {
+          ar: 'أيقونة لعبة الرياضيات',
+          en: 'Math game icon',
         },
       },
     ],
-    links: {},
+    links: {
+      githubUrl: 'https://github.com/MOHAMADAH94/math_game',
+    },
   },
 ]
 
