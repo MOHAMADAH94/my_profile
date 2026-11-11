@@ -389,6 +389,130 @@ export const projects: Project[] = [
     },
   },
   {
+    name: 'Moqouta',
+    slug: 'moqouta',
+    tagline: {
+      ar: 'رفيق يومي لمواقيت الصلاة في سوريا وحول العالم.',
+      en: 'A daily companion for prayer times in Syria and around the world.',
+    },
+    description: {
+      ar: 'تطبيق Flutter باسم «موقوتا» يحسب مواقيت الصلاة محلياً حسب الموقع، مع بوصلة القبلة وتنبيهات الأذان والتقويم الهجري وودجات الشاشة الرئيسية — ويعمل دون اتصال.',
+      en: 'A Flutter app named “Moqouta” that calculates prayer times locally from location, with a qibla compass, adhan alerts, a Hijri calendar, and home-screen widgets — and it works offline.',
+    },
+    category: 'mobile',
+    status: 'completed',
+    year: '2026',
+    featured: true,
+    platform: 'Android',
+    version: '1.0.0',
+    fileSize: '51.2 MB',
+    role: {
+      ar: 'تصميم وتطوير التطبيق بالكامل: الحساب الفلكي والواجهة والتنبيهات والودجات.',
+      en: 'Designed and developed the full app: astronomical calculation, UI, notifications, and widgets.',
+    },
+    problem: {
+      ar: 'المستخدم يحتاج مواقيت دقيقة وفق التقويم المعتمد محلياً، مع القبلة والتنبيه، حتى بلا إنترنت.',
+      en: 'People need accurate prayer times that match the local calendar, plus qibla and alerts, even without internet.',
+    },
+    solution: {
+      ar: 'حساب فلكي على الجهاز بمكتبة Adhan، مع طريقة وزارة الأوقاف السورية كافتراضي وطرق عالمية أخرى، وموقع GPS أو محافظة سورية، وتعديل يدوي بالدقائق.',
+      en: 'On-device astronomical calculation with the Adhan library, Syrian Awqaf as the default method plus other world methods, GPS or a Syrian governorate, and manual minute offsets.',
+    },
+    result: {
+      ar: 'تطبيق عربي RTL جاهز للتثبيت، مع عدّ تنازلي للصلاة القادمة وبوصلة وودجتين للشاشة الرئيسية.',
+      en: 'An installable Arabic RTL app with a countdown to the next prayer, a compass, and two home-screen widgets.',
+    },
+    features: [
+      {
+        ar: 'مواقيت اليوم: الفجر والشروق والظهر والعصر والمغرب والعشاء',
+        en: 'Today’s times: Fajr, sunrise, Dhuhr, Asr, Maghrib, and Isha',
+      },
+      {
+        ar: 'الصلاة القادمة مع عدّ تنازلي',
+        en: 'Next prayer with a live countdown',
+      },
+      {
+        ar: 'طريقة وزارة الأوقاف السورية (فجر 19.5° وعشاء 17.5°) وطرق عالمية',
+        en: 'Syrian Awqaf method (Fajr 19.5°, Isha 17.5°) plus world methods',
+      },
+      {
+        ar: 'مذهب العصر: الشافعي أو الحنفي',
+        en: 'Asr madhab: Shafi or Hanafi',
+      },
+      {
+        ar: 'موقع GPS أو اختيار محافظة سورية يدوياً',
+        en: 'GPS location or a manual Syrian governorate',
+      },
+      {
+        ar: 'تعديل دقائق لكل وقت لمطابقة مسجد محلي',
+        en: 'Per-prayer minute offsets to match a local mosque',
+      },
+      {
+        ar: 'بوصلة اتجاه القبلة',
+        en: 'Qibla compass',
+      },
+      {
+        ar: 'تنبيهات قبل الأذان أو عنده أو بعده مع تكبير',
+        en: 'Alerts before, at, or after adhan, with takbeer',
+      },
+      {
+        ar: 'التاريخ الهجري والميلادي',
+        en: 'Hijri and Gregorian dates',
+      },
+      {
+        ar: 'مواقيت مدن العالم',
+        en: 'Prayer times for world cities',
+      },
+      {
+        ar: 'ويدجت الشاشة الرئيسية بحجمين',
+        en: 'Two home-screen widget sizes',
+      },
+      {
+        ar: 'وضع ليلي وواجهة عربية RTL دون اتصال',
+        en: 'Dark mode and offline Arabic RTL interface',
+      },
+    ],
+    technologies: [
+      'Flutter',
+      'Dart',
+      'Adhan',
+      'Geolocator',
+      'flutter_compass',
+      'flutter_local_notifications',
+      'Android home-screen widgets',
+      'shared_preferences',
+    ],
+    technicalHighlights: [
+      {
+        ar: 'حساب المواقيت على الجهاز دون خادم',
+        en: 'On-device prayer calculation with no server',
+      },
+      {
+        ar: 'قناة أصلية Android لتحديث ودجات الشاشة الرئيسية من نفس الحساب',
+        en: 'Native Android channel that updates home-screen widgets from the same calculation',
+      },
+      {
+        ar: 'جدولة تنبيهات لسبعة أيام مع صوت التكبير',
+        en: 'Seven-day notification scheduling with takbeer audio',
+      },
+    ],
+    coverImage: '/images/projects/moqouta/cover.jpg',
+    screenshots: [
+      {
+        src: '/images/projects/moqouta/cover.jpg',
+        alt: { ar: 'شعار تطبيق موقوتا', en: 'Moqouta app logo' },
+        caption: {
+          ar: 'هوية تطبيق مواقيت الصلاة',
+          en: 'Prayer times app identity',
+        },
+      },
+    ],
+    links: {
+      githubUrl: 'https://github.com/MOHAMADAH94/moqouta',
+      apkUrl: '/downloads/moqouta-release.apk',
+    },
+  },
+  {
     name: 'Smart School',
     slug: 'smart-school',
     tagline: {

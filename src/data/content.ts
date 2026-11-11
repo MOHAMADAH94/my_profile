@@ -37,8 +37,8 @@ export const whatIBuild: ContentCard[] = [
     id: 'mobile',
     title: { ar: 'تطبيقات الموبايل', en: 'Mobile Applications' },
     description: {
-      ar: 'تطبيقات Flutter وAndroid للمالية والتعليم والقراءة والنوادي وأسعار الصرف والتجارة الرقمية.',
-      en: 'Flutter and Android apps for finance, education, reading, clubs, exchange rates, and digital commerce.',
+      ar: 'تطبيقات Flutter وAndroid للمواقيت والمالية والتعليم والقراءة والنوادي وأسعار الصرف والتجارة الرقمية.',
+      en: 'Flutter and Android apps for prayer times, finance, education, reading, clubs, exchange rates, and digital commerce.',
     },
   },
   {

@@ -81,6 +81,23 @@ export const experience: ExperienceItem[] = [
     ],
   },
   {
+    id: 'moqouta',
+    title: {
+      ar: 'تطبيق موقوتا — مواقيت الصلاة',
+      en: 'Moqouta — Prayer Times App',
+    },
+    organization: { ar: 'مستقل / عمل منتج', en: 'Independent / Product Work' },
+    location: { ar: 'سوريا', en: 'Syria' },
+    period: '2026',
+    type: 'project',
+    description: [
+      {
+        ar: 'تصميم وتطوير تطبيق Flutter يحسب مواقيت الصلاة محلياً وفق تقويم الأوقاف السورية، مع بوصلة القبلة وتنبيهات الأذان وودجات الشاشة الرئيسية.',
+        en: 'Designed and developed a Flutter app that calculates prayer times on-device using the Syrian Awqaf calendar, with a qibla compass, adhan alerts, and home-screen widgets.',
+      },
+    ],
+  },
+  {
     id: 'iqraa',
     title: {
       ar: 'تطبيق إقرأ — مكتبة PDF شخصية',
